@@ -1,4 +1,6 @@
 # tic-tac-toe-minimax
+Mildly modified version for CMPUT 274 by Paul Lu, November 2020.
+
 An implementation of Minimax AI Algorithm on Tic-Tac-Toe (or Noughts and Crosses) game. Try it: [Tic-tac-toe - Minimax](https://cledersonbc.github.io/tic-tac-toe-minimax/)
 
 <p align="center">
