@@ -1,6 +1,6 @@
-#!/usr/bin/env python3
 from math import inf as infinity
 from random import choice
+from random import seed as randomseed       # Paul Lu
 import platform
 import time
 from os import system
@@ -254,6 +254,10 @@ def main():
     """
     Main function that calls all functions
     """
+    # Paul Lu.  Set the seed to get deterministic behaviour for each run.
+    #       Makes it easier for testing and tracing for understanding.
+    randomseed(274 + 2020)
+
     clean()
     h_choice = ''  # X or O
     c_choice = ''  # X or O
