@@ -156,6 +156,10 @@ def clean():
     """
     Clears the console
     """
+    # Paul Lu.  Do not clear screen to keep output human readable.
+    print()
+    return
+
     os_name = platform.system().lower()
     if 'windows' in os_name:
         system('cls')
