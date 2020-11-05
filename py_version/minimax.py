@@ -12,6 +12,10 @@ This software is available under GPL license.
 Author: Clederson Cruz
 Year: 2017
 License: GNU GENERAL PUBLIC LICENSE (GPL)
+
+Example:
+Paul Lu
+CCID:  paullu
 """
 
 HUMAN = -1
