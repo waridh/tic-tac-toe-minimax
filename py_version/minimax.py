@@ -212,7 +212,8 @@ def ai_turn(c_choice, h_choice):
         x, y = move[0], move[1]
 
     set_move(x, y, COMP)
-    time.sleep(1)
+    # Paul Lu.  Go full speed.
+    # time.sleep(1)
 
 
 def human_turn(c_choice, h_choice):

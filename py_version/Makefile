@@ -5,5 +5,4 @@ oo:
 	python3 oominimax.py
 
 test1:
-	python3 minimax.py < input.1 > output.1 &
-	tail -f output.1
+	python3 minimax.py < input.1 > output.1
